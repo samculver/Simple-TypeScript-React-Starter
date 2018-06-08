@@ -1,8 +1,9 @@
-# Simple-TypeScript-Starter
+# Simple TypeScript React Starter
 
 Includes:
 
 - TypeScript
+- React
 - Webpack
 - Sass Compiler
 - Dev Server
