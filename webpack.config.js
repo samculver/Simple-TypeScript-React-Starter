@@ -17,7 +17,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.ts$/,
+                test: /\.(ts|tsx)?$/,
                 include: path.resolve(__dirname, "src"),
                 use: [
                     {

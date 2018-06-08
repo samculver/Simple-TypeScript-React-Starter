@@ -1,17 +1,18 @@
 {
-  "name": "simple-typescript-starter",
+  "name": "simple-typescript-react-starter",
   "version": "1.0.0",
-  "description": "A super simple starter template for TypeScript with webpack and Sass",
+  "description": "A super simple starter template for TypeScript and React with Webpack and Sass",
   "scripts": {
     "serve": "webpack-dev-server --mode development --open",
     "build": "webpack-cli --mode production"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samculver/Simple-TypeScript-Starter.git"
+    "url": "https://github.com/samculver/Simple-TypeScript-React-Starter.git"
   },
   "keywords": [
     "typescript",
+    "react",
     "starter",
     "webpack",
     "sass"
@@ -19,6 +20,9 @@
   "author": "Sam Culver",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.3.2",
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
     "css-loader": "^0.28.11",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
@@ -29,5 +33,9 @@
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1",
     "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }
